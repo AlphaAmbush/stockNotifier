@@ -16,7 +16,7 @@ This project aims to monitor the stock price of a specific company and send an e
     ```
 
 ## Usage
-1. Run the `stock_price_monitor.py` script.
+1. Run the `main.py` script.
 2. Provide your email credentials as command-line arguments: `<password> <sender_email>`.
 3. The script continuously checks the stock price of the specified company at regular intervals.
 4. If the market is open and there's a decrease in price, an email notification is sent.
